@@ -8,7 +8,11 @@ dependencies:
     sdk: flutter
   meta: ^1.0.5
   collection: ^1.14.3
-  firebase_core: ^0.6.0
+  firebase_core: 
+    git:
+      url: git@github.com:nubank/flutterfire.git
+      path: packages/firebase_core/firebase_core
+      ref: 0.6.3-dev
   plugin_platform_interface: ^1.0.2
 
 dev_dependencies:
