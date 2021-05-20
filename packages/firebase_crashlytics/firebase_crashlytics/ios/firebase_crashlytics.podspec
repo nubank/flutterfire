@@ -15,7 +15,6 @@ else
   end
 end
 
-
 Pod::Spec.new do |s|
   s.name             = pubspec['name']
   s.version          = library_version
@@ -32,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.dependency 'firebase_core'
-  s.dependency 'Firebase/Crashlytics', :git => 'https://github/nubank/firebase-ios-sdk', :commit => '80d3216e758593174905f8a7026f10f99ac28c7a'
+  s.dependency 'Firebase/Crashlytics', firebase_sdk_version
 
   s.static_framework = true
   s.pod_target_xcconfig = {

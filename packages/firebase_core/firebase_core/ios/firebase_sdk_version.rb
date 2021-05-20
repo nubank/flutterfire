@@ -1,3 +1,3 @@
 def firebase_sdk_version!()
-  '7.3.0'
+  '6.33.0'
 end
