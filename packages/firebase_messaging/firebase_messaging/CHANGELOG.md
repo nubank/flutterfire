@@ -5,7 +5,7 @@
  - **FIX**: Add missing sdk version constraints inside pubspec.yaml (#4604).
  - **FEAT**: bump firebase-android-sdk BoM to 25.13.0.
  - **CHORE**: harmonize dependencies and version handling.
- - **BREAKING** **FEAT**: forward port to firebase-ios-sdk v7.3.0.
+ - **BREAKING** **FEAT**: forward port to firebase-ios-sdk v6.33.0.
    - Due to this SDK upgrade, iOS 10 is now the minimum supported version by FlutterFire. Please update your build target version.
 
 ## 8.0.0-dev.11
