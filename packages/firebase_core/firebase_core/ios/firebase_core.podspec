@@ -27,13 +27,13 @@ Pod::Spec.new do |s|
   s.source_files     = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
   
   # Flutter dependencies
   s.dependency 'Flutter'
   
   # Firebase dependencies
-  s.dependency 'Firebase/CoreOnly', firebase_sdk_version
+  s.dependency 'Firebase/CoreOnly', '6.33.0'
    
   s.static_framework = true
   s.pod_target_xcconfig = {
