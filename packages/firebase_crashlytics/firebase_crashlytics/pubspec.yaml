@@ -21,7 +21,11 @@ dependencies:
   flutter:
     sdk: flutter
   stack_trace: ^1.9.3
-  firebase_core: ^0.6.0
+  firebase_core:
+    git:
+      url: git@github.com:nubank/flutterfire.git
+      path: firebase_core/firebase_core
+      ref: '0.6.0-dev'
   firebase_core_platform_interface: ^3.0.0
   firebase_crashlytics_platform_interface: ^1.1.5
 dev_dependencies:
