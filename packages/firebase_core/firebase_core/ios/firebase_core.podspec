@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.dependency 'Flutter'
   
   # Firebase dependencies
-  s.dependency 'Firebase/CoreOnly', firebase_sdk_version
+  s.dependency 'Firebase/CoreOnly', '6.33.0'
    
   s.static_framework = true
   s.pod_target_xcconfig = {

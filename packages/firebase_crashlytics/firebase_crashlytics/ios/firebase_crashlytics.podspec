@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.dependency 'firebase_core'
-  s.dependency 'Firebase/Crashlytics', firebase_sdk_version
+  s.dependency 'Firebase/Crashlytics', '6.33.0'
 
   s.static_framework = true
   s.pod_target_xcconfig = {
